@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rihoko-vladimir/react-playground/static/css/main.a617e044.chunk.css",
+    "main.js": "/rihoko-vladimir/react-playground/static/js/main.a619e440.chunk.js",
+    "main.js.map": "/rihoko-vladimir/react-playground/static/js/main.a619e440.chunk.js.map",
+    "runtime-main.js": "/rihoko-vladimir/react-playground/static/js/runtime-main.72017032.js",
+    "runtime-main.js.map": "/rihoko-vladimir/react-playground/static/js/runtime-main.72017032.js.map",
+    "static/js/2.a7e7dc7c.chunk.js": "/rihoko-vladimir/react-playground/static/js/2.a7e7dc7c.chunk.js",
+    "static/js/2.a7e7dc7c.chunk.js.map": "/rihoko-vladimir/react-playground/static/js/2.a7e7dc7c.chunk.js.map",
+    "static/js/3.6c649511.chunk.js": "/rihoko-vladimir/react-playground/static/js/3.6c649511.chunk.js",
+    "static/js/3.6c649511.chunk.js.map": "/rihoko-vladimir/react-playground/static/js/3.6c649511.chunk.js.map",
+    "index.html": "/rihoko-vladimir/react-playground/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/rihoko-vladimir/react-playground/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.a7e7dc7c.chunk.js.LICENSE.txt": "/rihoko-vladimir/react-playground/static/js/2.a7e7dc7c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/rihoko-vladimir/react-playground/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72017032.js",
+    "static/js/2.a7e7dc7c.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.a619e440.chunk.js"
+  ]
+}
