@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: rgba(51,51,52,0.8);
+    border-radius: 4px;
 }
 
 .buttonContainer {
@@ -11,6 +13,6 @@
 }
 
 .counter {
-    color: black;
+    color: white;
     font-size: 14px;
 }
