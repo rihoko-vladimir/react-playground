@@ -6,33 +6,30 @@ import MyTabs from "../TabsPage/tabs";
 import {BrowserRouter} from "react-router-dom";
 
 
-export const routes = ["/about", "/counters", "/", "/404"];
+export const routes = ["/react-playground", "/react-playground/about", "/react-playground/counters", "/react-playground/404", "/"];
 
 const RouterTabs = () => (
     <BrowserRouter>
-        <Route path={routes[3]}>
-            <ErrorPage/>
-        </Route>
         <Switch>
-            <Route path={"/"}>
-                <div>
-                    <Switch>
-                        <Route path={routes[0]}>
-                            <MyTabs/>
-                            <AboutPage/>
-                        </Route>
-                        <Route path={routes[1]}>
-                            <MyTabs/>
-                            <CounterPage/>
-                        </Route>
-                        <Route exact path={routes[2]}>
-                            <MyTabs/>
-                        </Route>
-                        <Route path={"/"}>
-                            <Redirect to={routes[3]}/>
-                        </Route>
-                    </Switch>
-                </div>
+            <Route path={routes[3]}>
+                <ErrorPage/>
+            </Route>
+            <Route path={routes[1]}>
+                <MyTabs/>
+                <AboutPage/>
+            </Route>
+            <Route path={routes[2]}>
+                <MyTabs/>
+                <CounterPage/>
+            </Route>
+            <Route exact path={routes[0]}>
+                <MyTabs/>
+            </Route>
+            <Route path={routes[0]}>
+                <Redirect to={routes[3]}/>
+            </Route>
+            <Route path={routes[4]}>
+                <Redirect to={routes[0]}/>
             </Route>
         </Switch>
     </BrowserRouter>)
