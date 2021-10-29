@@ -45,7 +45,7 @@ export default class CounterParent extends React.Component {
     render() {
         return (
             <div className={"container"}>
-                <ButtonGroup variant={"outlined"}>
+                <ButtonGroup variant={"outlined"} color={"secondary"}>
                     <Button onClick={this.onNewCounterAdded}>+</Button>
                     <Button onClick={this.onCounterReset}>Reset</Button>
                     <Button onClick={this.onCounterRemoved}>-</Button>

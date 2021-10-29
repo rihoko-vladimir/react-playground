@@ -4,8 +4,14 @@ import CounterParent from "../CounterParent";
 import "./styles.css";
 
 const CounterPage = () => (<div className={"counterPage"}>
-    <CounterContainer style={styles}/>
-    <CounterParent style={styles}/>
+    <div className={"task"}>
+        <p className={"text"}>Task #1</p>
+        <CounterContainer style={styles}/>
+    </div>
+    <div className={"task"}>
+        <p className={"text"}>Task #2</p>
+        <CounterParent style={styles}/>
+    </div>
 </div>);
 
 export default CounterPage;
