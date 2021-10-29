@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    border: solid 1px #0336FF;
+    border-radius: 6px;
 }
 .counters{
     display: flex;
