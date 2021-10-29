@@ -1,14 +1,14 @@
-import {Button} from "@mui/material";
+import {Button, ButtonGroup} from "@mui/material";
 import PropTypes from 'prop-types'
 
 const Counter = (props) => (
     <div style={props.style} className={"mainContainer"}>
         <p className={"counter"}>{props.currentCount}</p>
-        <div className={"buttonContainer"}>
+        <ButtonGroup className={"buttonContainer"} color={"secondary"}>
             <Button variant="outlined" size={"medium"} onClick={() => props.onDecrementClicked()}>-</Button>
             <Button variant="outlined" size={"medium"} onClick={() => props.onResetClicked()}>Reset</Button>
             <Button variant="outlined" size={"medium"} onClick={() => props.onIncrementClicked()}>+</Button>
-        </div>
+        </ButtonGroup>
     </div>
 );
 

@@ -1,0 +1,10 @@
+.counterPage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
