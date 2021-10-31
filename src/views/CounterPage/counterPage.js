@@ -1,4 +1,4 @@
-import CounterContainer from "../../containers/CounterContainer";
+import CounterContainer from "../../containers/CounterContainer/CounterContainer";
 import styles from "../Counter/styles.css";
 import CounterParent from "../CounterParent";
 import "./styles.css";
