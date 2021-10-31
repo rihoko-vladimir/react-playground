@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "../views/Counter";
+import Counter from "../../views/Counter";
 import PropTypes from "prop-types";
 import "react-dom";
 

@@ -2,11 +2,13 @@ import {Redirect, Route, Switch} from "react-router";
 import AboutPage from "../AboutPage/aboutPage";
 import CounterPage from "../CounterPage/counterPage";
 import ErrorPage from "../ErrorPage/errorPage";
-import MyTabs from "../TabsPage/tabs";
+import MyTabs from "../TabsPage/myTabs";
 import {BrowserRouter} from "react-router-dom";
+import TabsContainer from "../../containers/TabsContainer/TabsContainer";
+import LoginPage from "../LoginPage/loginPage";
 
 
-export const routes = ["/react-playground", "/react-playground/about", "/react-playground/counters", "/react-playground/404", "/"];
+export const routes = ["/react-playground", "/react-playground/about", "/react-playground/counters", "/react-playground/404", "/", "/react-playground/login"];
 
 const RouterTabs = () => (
     <BrowserRouter>
@@ -15,12 +17,13 @@ const RouterTabs = () => (
                 <ErrorPage/>
             </Route>
             <Route path={routes[1]}>
-                <MyTabs/>
-                <AboutPage/>
+                <TabsContainer render={<AboutPage/>}/>
             </Route>
             <Route path={routes[2]}>
-                <MyTabs/>
-                <CounterPage/>
+                <TabsContainer render={<CounterPage/>}/>
+            </Route>
+            <Route path={routes[5]}>
+                <TabsContainer render={<LoginPage/>}/>
             </Route>
             <Route exact path={routes[0]}>
                 <MyTabs/>

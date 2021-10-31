@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import {Button, ButtonGroup} from "@mui/material";
-import CounterContainer from "../../containers/CounterContainer";
+import CounterContainer from "../../containers/CounterContainer/CounterContainer";
 
 export default class CounterParent extends React.Component {
     constructor(props) {
