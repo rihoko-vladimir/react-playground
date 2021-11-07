@@ -12,6 +12,7 @@ const MyTabs = () => {
             <Tab label={"About us"} value={routes[1]} to={routes[1]} component={Link}/>
             <Tab label={"Counters"} value={routes[2]} to={routes[2]} component={Link}/>
             <Tab label={"Log in"} value={routes[5]} to={routes[5]} component={Link}/>
+            <Tab label={"Log in with Redux"} value={routes[6]} to={routes[6]} component={Link}/>
         </Tabs>
     </AppBar>
 }
